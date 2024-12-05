@@ -7,6 +7,10 @@
 
 **PDI Executor** is a graphical tool developed with **Qt** that allows users to select and execute **the Python project** script about the models, with the ability to view the output directly within the interface. The main objective of this application is to simplify and automate the process of running this scripts, making it more user-friendly, especially for those who prefer not to use the command line. This tool is ideal for developers, researchers, and other users seeking a quick and efficient way to execute model scripts from a convenient graphical interface.
 
+If you know how to run a project using **Qt** you can skip these explanations, is just simply Build -> then Run.
+
+Verify that al the contents of the Project PDI is on the **same directory** as the python script.
+
 ## Table of Contents
 
 - [System Requirements](#system-requirements)
@@ -23,7 +27,7 @@
 To run **PDI Executor**, you will need the following:
 
 ### **Supported Operating Systems**:
-- **Windows** (7, 8, 10, 11)
+- **Windows** (7, 8, 10, 11) (Need to be verified)
 - **Linux** (Ubuntu-based distributions or Arch Linux, such as Manjaro)
 - **macOS** (10.14 Mojave and higher, stability needs to be verified)
 
@@ -76,14 +80,14 @@ To run **PDI Executor**, you will need the following:
 
 ### **Windows**:
 
-- Once the project is built in **Qt Creator**, navigate to the build folder (`build-PythonExecutor-Desktop_Qt_...`) and run the **PythonExecutor.exe** file.
+- Once the project is built in **Qt Creator**, navigate to the build folder (`build-PDIExecutor-Desktop_Qt_...`) and run the **PDIExecutor.exe** file.
 
 ### **Linux**:
 
 - From **Qt Creator**, click **Run** (`Ctrl + R`) to launch the application.
 - Alternatively, navigate to the build folder and run the executable:
   ```sh
-  ./PythonExecutor
+  ./PDIExecutor
   ```
 
 ## Features
